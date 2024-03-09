@@ -258,13 +258,10 @@ button {
 /*-- navigation--*/
 
 .navigation.navbar {
-     position: fixed;
-     top: 0;
      width: 100%;
      padding-top: 14px !important;
      padding: 0;
      background: #fff; /* Add a background color */
-     z-index: 1000; /* Ensure it's on top of other elements */
 }
 
 
@@ -324,7 +321,6 @@ button {
 
 .booking_ocline {
      position: absolute;
-     margin-left: 500px;
      width: 100%;
      top: 50%;
      transform: translateY(-50%);
